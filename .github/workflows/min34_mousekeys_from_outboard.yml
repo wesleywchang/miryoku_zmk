@@ -10,9 +10,9 @@ jobs:
     with:
       board: '["seeeduino_xiao_ble"]'
       shield: '["min34_left", min34_right"]'
-      alphas: '["QWERTY"]'
-      nav: '["invertedT"]'
-      layers: '["flip"]'
+#      alphas: '["QWERTY"]'
+#      nav: '["invertedT"]'
+#      layers: '["flip"]'
       custom-config: '["#define MIRYOKU_KLUDGE_MOUSEKEYSPR"]'
       kconfig: '["CONFIG_ZMK_MOUSE=y"]'
       branches: '["zmkfirmware/zmk/main ftc/zmk/mouse-ftc"]'
