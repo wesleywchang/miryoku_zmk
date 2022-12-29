@@ -1,0 +1,7 @@
+# Copyright 2022 Manna Harbour
+# https://github.com/manna-harbour/miryoku
+
+outboard_repository=wesleywchang/zmk-min34
+outboard_ref=master
+outboard_from=config/boards/shields/min34
+outboard_to=boards/shields/min34
