@@ -9,4 +9,4 @@ jobs:
     secrets: inherit
     with:
       board: '["seeeduino_xiao_ble"]'
-      shield: '["min34_left", min34_right"]'
+      shield: '["min34_left", "min34_right"]'
