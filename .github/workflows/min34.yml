@@ -1,7 +1,7 @@
 # Copyright 2022 Manna Harbour
 # https://github.com/manna-harbour/miryoku
 
-name: 'min34 with Mouse Keys, using Outboard'
+name: 'min34 with outboard'
 on: workflow_dispatch
 jobs:
   build:
@@ -10,7 +10,3 @@ jobs:
     with:
       board: '["seeeduino_xiao_ble"]'
       shield: '["min34_left", min34_right"]'
-      alphas: '["QWERTY"]'
-      nav: '["invertedT"]'
-      layers: '["flip"]'
-      branches: '["zmkfirmware/zmk/main"]'
