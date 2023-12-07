@@ -1,0 +1,12 @@
+name: "Build Totem with MouseKeys"
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  build:
+    uses: ./.github/workflow/main.yml
+    secrets: inherit
+    with:
+      board: '["seeeduino_xiao_ble"]'
+      shield: '["totem_left", "totem_right"]'
+      custom_config: '["#define MIRYOKU_KLUDGE_MOUSEKEYPR"]'
+      kconfig: '["CONFIG_ZMK_SLEEP=y","CONFIG_ZMK_MOUSE=y"]'
+      # options:
