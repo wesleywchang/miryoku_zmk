@@ -1,4 +1,4 @@
-name: "Build Totem with MouseKeys"
+name: "Build Totem"
 on: [push, pull_request, workflow_dispatch]
 jobs:
   build:
