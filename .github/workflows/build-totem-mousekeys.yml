@@ -7,8 +7,7 @@ jobs:
     with:
       board: '["seeeduino_xiao_ble"]'
       shield: '["totem_left", "totem_right"]'
-      custom_config: '["#define MIRYOKU_KLUDGE_MOUSEKEYPR"]'
-      kconfig: '["CONFIG_ZMK_SLEEP=y\nCONFIG_ZMK_MOUSE=y"]'
+      kconfig: '["CONFIG_ZMK_SLEEP=y\nCONFIG_ZMK_POINTING=y"]'
       clipboard: '["Mac"]'
       alphas: '["QWERTY"]'
       nav: '["invertedT"]'
